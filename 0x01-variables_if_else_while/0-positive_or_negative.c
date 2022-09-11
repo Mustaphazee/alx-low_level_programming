@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point 
+ * main - print if the number is positive, zero, or negative
  *
  * Return: Always success
  */
@@ -21,6 +21,6 @@ else if (n == 0)
 else
 	printf("%d is negative\n", n);
 
-return (0)
+return (0);
 }
 
