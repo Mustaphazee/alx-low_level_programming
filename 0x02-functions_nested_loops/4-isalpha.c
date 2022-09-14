@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  *
  * isalpha - function to check if c is a letter, lowercase or uppercase
@@ -13,4 +13,4 @@
 	}
 	else
 	return (0);
-}	
+}
