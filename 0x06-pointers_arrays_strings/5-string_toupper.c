@@ -7,15 +7,15 @@
  * Return: address tp the string
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *x)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (x[i])
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
-			str[i] -= 32;
+		if (x[i] >= 97 && x[i] <= 122)
+		    x[i] = x[i] - 32;
 		int++;
 	}
-	return (str);
+	return (x);
 }
